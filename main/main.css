@@ -1,0 +1,83 @@
+header{
+    position: relative;
+    color: tomato;
+}
+
+main {
+    mix-blend-mode: screen;
+}
+
+#background {
+    background-color: royalblue;
+}
+#background p {
+    margin-top: -80%;
+    margin-left: -30%;      
+}
+
+#reflection {
+    width: 50%;
+    align-self: center;
+    color: rgb(255, 81, 0);
+    padding: 5%;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(10%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hidden {
+    opacity: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0%;
+    font-size: 120%;
+}
+nav ul li {
+    padding: 8%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 81, 0);
+}
+a:hover {
+    color: rgb(255, 130, 80);
+    
+} 
+
+@media screen and (min-width: 601px) and (max-width: 1100px) {
+    #background {
+        height: 250%;
+    }
+    #background p {
+        margin-top: -150%;
+        margin-left: -20%;
+    }
+    #reflection {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 600px) {
+    #background {
+        height: 270%;
+    }
+    #background p {
+        margin-top: -250%;
+        margin-left: -200%;
+    }
+    #reflection {
+        width: 90%;
+    }
+    #reflection h2 {
+        margin-left: 3%;
+    }
+}

@@ -1,0 +1,134 @@
+#background {
+    background-color: rgb(205, 69, 41);
+    height: 170%;
+}
+
+#background p {
+    margin-top: -100%;
+    margin-left: -1%;
+    color: black;
+}
+
+main h1, main h2, main h3, main p, main a {
+    color:rgb(205, 69, 41);
+    mix-blend-mode: difference;
+}
+
+header {
+    position: relative; left: 0;
+    width: 30%;
+    align-self: baseline;
+}
+
+.hidden {
+    display: none;
+}
+
+#back {
+    z-index: 2;
+    position: absolute; left: 1%; top: 2%;
+    background-color: black;
+    color: rgb(205, 69, 41);
+    padding: 1% 1.5%;
+    font-size: 100%;
+    cursor: pointer;
+    letter-spacing: 22%;
+}
+#back:hover {
+    color: rgb(255, 149, 55);
+    transition: 0.5s;
+}
+a {
+    text-decoration: none;
+    color:rgb(255, 149, 55);
+    padding-left: 4%;
+}
+a:hover {
+    color: rgb(165, 193, 140);
+    transition: 0.3s;
+}
+
+h1 {
+    margin-top: 15%;
+}
+h2 {
+    padding-left: 1%;
+}
+h3 {
+    padding-top: 5%;
+    padding-left: 1%;
+}
+p {
+    padding-left: 3%;
+}
+
+#section1 {
+    position: absolute; right: 0; 
+    width: 60%;
+    padding-right: 7%;
+    padding-top: 5%;
+}
+#section1 div img {
+    width: 100%;
+    border: 20px solid black;
+    border-radius: 20px 0px 20px 20px
+}
+#btn {
+    z-index: 2;
+    position: absolute;
+    width: 10%;
+    margin: -5% 42% 0%;
+    padding: 1% 0%;
+    font-size: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#btn:hover {
+    color: rgb(205, 69, 41);
+    transition: 0.3s;
+}
+
+#section2 {
+    position: relative; left: 0;
+    align-self: baseline;
+    padding: 3%;
+    width: 70%;
+}
+
+@media screen and (min-width: 601px) and (max-width: 1100px) {
+    #background p {
+        margin-top: -160%;
+        margin-left: -40%;
+    }
+    h1 {
+        font-size: 1200%;
+    }
+    #section1 {
+        margin-top: 7%;
+    }
+    #btn {
+        margin-top: -7%;
+    }
+}
+@media screen and (max-width: 600px) {
+    #background p {
+        margin-top: -250%;
+        margin-left: -150%;
+    }
+    h1 {
+        font-size: 800%;
+    }
+    #section1 {
+    position: relative;
+    width: 90%;
+    }
+    #btn {
+        margin-top: -7%;
+    }
+    #section2 {
+        width: 90%;
+    }
+}
