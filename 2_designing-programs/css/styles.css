@@ -1,0 +1,119 @@
+/* GENERAL STYLING */
+body {
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: Impact, Haettenschweiler, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+h1 {
+  margin: -10px -10px 10px -10px;
+  text-align: center;
+  font-size: 120px;
+  font-family: Copperplate, 'Copperplate Gothic Bold', fantasy;
+  letter-spacing: 18px;
+  padding-top: 50px;
+  background-color: black;
+  color: white
+}
+
+a {
+  text-decoration: none;
+  font-style: bold;
+  color: white;
+}
+
+.paragraph {
+  font-size: 1rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 15px;
+  background-color: gainsboro;
+  color: black
+}
+
+blockquote {
+  font-style: italic;
+}
+
+footer {
+  font-size: 0.8rem;
+}
+
+/* ADDITIONAL CLASSES */
+
+.black {
+  margin: -10px -10px 10px -10px;
+  background-image: linear-gradient(to right, black, white);
+  color: black
+}
+.intro {
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+}
+
+.small {
+  font-size: 0.75rem;
+  margin-left: 20%;
+}
+
+.large {
+  font-size: 2rem;
+  letter-spacing: -0.03rem;
+  line-height: 0.9;
+}
+
+.two_col {
+  column-count: 2;
+  column-gap: 0.3rem;
+}
+
+.four_col {
+  column-count: 4;
+  column-gap: 0.7rem;
+}
+
+.ital {
+  font-style: italic;
+  text-align: center;
+}
+
+/* HOVER */
+
+.ho:hover {
+  background-color: white;
+  background-image: linear-gradient(white);
+  color: black;
+}
+
+a:hover {
+  font-style: bold;
+  color: black;
+}
+
+div:hover {
+  background-color: black;
+  color: white;
+}
+
+.oh:hover {
+  background-color: white;
+  color: black;
+  font-style: bold;
+}
+
+#section3, #section5 {
+  text-align: right;
+}
