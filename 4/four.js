@@ -5,5 +5,5 @@ window.addEventListener("scroll", function () {
 
 const link = document.getElementById("video");
 link.addEventListener("click", function () {
-    window.open("../4_Teashop/index.html", "_blank");
+    window.open("https://https://janne111.github.io/Tasteful-Tea-Tales/", "_blank");
 });
