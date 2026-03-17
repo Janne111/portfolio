@@ -1,6 +1,6 @@
 @font-face {
         font-family: 'Styro_Complete';
-        src: url('./fonts/Styro_Complete/Fonts/WEB/fonts/Styro-Regular.woff2') format('woff2');
+        src: url(./fonts/Styro_Complete/Fonts/WEB/fonts/Styro-Regular.woff2) format('woff2');
 }
 
 body {
@@ -39,7 +39,7 @@ footer{
 }
 
 h1{
-    font-family: 'Styro Complete', sans-serif;
+    font-family: 'Styro_Complete', sans-serif;
     font-weight: lighter;
     padding-left: 3%;
     padding-right: 3%;
