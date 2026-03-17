@@ -1,6 +1,6 @@
 @font-face {
         font-family: 'Styro_Complete';
-        src: url('./fonts/Styro_Complete/Fonts/WEB/fonts/Styro-Regular.woff') format('woff');
+        src: url('./fonts/Styro_Complete/Fonts/WEB/fonts/Styro-Regular.ttf') format('ttf');
 }
 
 body {
