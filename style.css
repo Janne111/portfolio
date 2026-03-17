@@ -1,7 +1,7 @@
 @font-face {
-        font-family: 'Styro_Complete';
-        src: url(Janne111/portfolio/fonts/Styro_Complete/Fonts/WEB/fonts/Styro-Regular.woff2) format('woff2'),
-             url(Janne111/portfolio/fonts/Styro_Complete/Fonts/WEB/fonts/Styro-Regular.woff) format('woff');
+    font-family: 'Styro_Complete';
+    src: url(Janne111/portfolio/fonts/Styro_Complete/Fonts/WEB/fonts/Styro-Regular.woff2) format('woff2'),
+        url(Janne111/portfolio/fonts/Styro_Complete/Fonts/WEB/fonts/Styro-Regular.woff) format('woff');
 }
 
 body {
